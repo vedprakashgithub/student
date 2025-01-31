@@ -29,7 +29,7 @@ const StudentsPage = () => {
       {/* Sidebar Component */}
       <Sidebar />
       {/* Main Content Area */}
-      <div className="flex-1 p-8 lg:ml-64">
+      <div className="flex-1 p-8 mt-10 lg:ml-64">
         {" "}
         {/* Adjusts based on screen size */}
         <div className="flex justify-between mb-4">
