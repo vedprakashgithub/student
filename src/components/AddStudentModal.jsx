@@ -102,7 +102,7 @@ const AddStudentModal = () => {
       <Sidebar />
 
       {/* Main Form Area */}
-      <div className="flex-1 p-8 lg:ml-64">
+      <div className="flex-1 p-8 mt-10 lg:ml-64">
         {" "}
         {/* This will push the form right after the sidebar on larger screens */}
         <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-4xl mx-auto">
