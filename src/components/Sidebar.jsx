@@ -81,7 +81,8 @@ const Sidebar = () => {
 
       {/* Overlay for mobile screens */}
       <div
-        className={`lg:hidden "
+        className={`lg:hidden fixed z-30 transition-opacity ${
+          isOpen ? "opacity-50" : "opacity-0 pointer-events-none "
         }`}
         onClick={toggleSidebar}
       ></div>
