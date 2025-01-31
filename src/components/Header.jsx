@@ -48,7 +48,7 @@ export default function Header() {
             </a>
           </div>
         </div>
-        <h1 className="text-2xl text-center mb-5 font-bold">
+        <h1 className="text-2xl text-center mt-5 mb-5 font-bold">
           Welcome to My School
         </h1>
       </div>
